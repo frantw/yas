@@ -43,6 +43,7 @@ impl RelicScannerApplication {
     fn get_game_info() -> Result<GameInfo> {
         let game_info = GameInfoBuilder::new()
             .add_local_window_name("崩坏：星穹铁道")
+            .add_cloud_window_name("崩壞：星穹鐵道")
             .add_local_window_name("Honkai: Star Rail")
             .add_cloud_window_name("云·星穹铁道")
             .build();
